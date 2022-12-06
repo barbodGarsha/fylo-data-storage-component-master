@@ -45,10 +45,184 @@ li {
 
 .background-design {
   min-width: 100%;
-  min-height: 50vh;
+  height: 50vh;
   position: absolute;
   left: 0;
   bottom: 0;
   z-index: -999;
+}
+
+.fylo-comp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fylo-comp .fylo-comp__controls {
+  background-color: #1d2c67;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 10rem;
+  width: 19rem;
+  padding: 2rem;
+  margin-right: 2rem;
+  border-radius: 8px;
+  border-top-right-radius: 27% 50%;
+}
+
+.fylo-comp .fylo-comp__controls .fylo-comp__controls__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fylo-comp .fylo-comp__controls .fylo-comp__controls__btns .fylo-comp__controls__btn {
+  cursor: pointer;
+  background-color: #0c122c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+
+.fylo-comp .fylo-comp__info {
+  position: relative;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1d2c67;
+  height: 6rem;
+  width: 32rem;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.fylo-comp .fylo-comp__info .fylo-comp__info__gb-left {
+  position: absolute;
+  top: -3rem;
+  right: 2rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 11.5rem;
+  height: 5rem;
+  border-radius: 8px;
+  border: solid 2px #0c122c;
+}
+
+.fylo-comp .fylo-comp__info .fylo-comp__info__gb-left .fylo-comp__info__gb-left__txt {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 3rem;
+  margin-right: .5rem;
+}
+
+.fylo-comp .fylo-comp__info .fylo-comp__info__gb-left .fylo-comp__info__gb-left__txt--diff {
+  color: #848794;
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: .9rem;
+}
+
+.fylo-comp .fylo-comp__info .fylo-comp__info__txt {
+  color: #dddbff;
+  font-family: 'Raleway';
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.fylo-comp .fylo-comp__info .fylo-comp__info__txt--bold {
+  font-weight: 700;
+}
+
+.progress-bar .progress-bar__design {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #151f4c;
+  width: 100%;
+  height: 1rem;
+  margin-bottom: .5rem;
+  border-radius: .5rem;
+}
+
+.progress-bar .progress-bar__design .progress-bar__design__filled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffa399), to(#ff4d97));
+  background-image: linear-gradient(to right, #ffa399, #ff4d97);
+  width: 80%;
+  height: .8rem;
+  border-radius: .5rem;
+  border: solid 0.1rem #0c122c;
+}
+
+.progress-bar .progress-bar__design .progress-bar__design__filled .progress-bar__design__circle {
+  background-color: white;
+  width: .55rem;
+  height: .55rem;
+  border-radius: 50%;
+  margin-right: .1rem;
+}
+
+.progress-bar .progress-bar__values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.progress-bar .progress-bar__values .progress-bar__txt {
+  color: white;
+  font-family: 'Raleway';
 }
 /*# sourceMappingURL=main.css.map */
