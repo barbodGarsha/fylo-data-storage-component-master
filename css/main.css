@@ -140,6 +140,7 @@ li {
   width: 11.5rem;
   height: 5rem;
   border-radius: 8px;
+  border-bottom-right-radius: 0;
   border: solid 2px #0c122c;
 }
 
@@ -156,6 +157,26 @@ li {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: .9rem;
+}
+
+.fylo-comp .fylo-comp__info .fylo-comp__info__gb-left__design__outline {
+  position: absolute;
+  right: -.1rem;
+  bottom: -2rem;
+  width: 0;
+  height: 0;
+  border-left: 2rem solid transparent;
+  border-top: 2rem solid black;
+}
+
+.fylo-comp .fylo-comp__info .fylo-comp__info__gb-left__design__outline .fylo-comp__info__gb-left__design {
+  position: absolute;
+  right: .1rem;
+  bottom: .3rem;
+  width: 0;
+  height: 0;
+  border-left: 1.7rem solid transparent;
+  border-top: 1.7rem solid white;
 }
 
 .fylo-comp .fylo-comp__info .fylo-comp__info__txt {
