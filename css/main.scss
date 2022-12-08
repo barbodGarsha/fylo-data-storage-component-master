@@ -132,7 +132,7 @@ li {
             justify-content: center;
             align-items: center;
 
-            width: 11.5rem;
+            width: 12rem;
             height: 5rem;
 
             border-radius: 8px;
@@ -141,7 +141,7 @@ li {
             .fylo-comp__info__gb-left__txt {
                 font-family: 'Raleway';
                 font-weight: 700;
-                font-size: 3rem;   
+                font-size: 2.7rem;   
                 margin-right: .5rem;
             }
             .fylo-comp__info__gb-left__txt--diff {
@@ -149,7 +149,7 @@ li {
                 text-transform: uppercase;
                 font-family: 'Raleway';
                 font-weight: 700;
-                font-size: .9rem;
+                font-size: .75rem;
             }
         }
         .fylo-comp__info__gb-left__design__outline {
@@ -230,3 +230,69 @@ li {
     
     }
 }
+
+@media screen and (max-width: 1000px) {
+    
+    .background-design {
+        content: url('../images/bg-mobile.png');
+        height: 100vh;
+    }
+
+    .fylo-comp {
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        
+        .fylo-comp__controls {
+            width: 20rem;
+            max-width: 70%;
+    
+            padding: 1.5rem 2rem;
+            
+            margin-right: 0rem;
+            margin-bottom: 1rem;
+    
+        }
+    
+        .fylo-comp__info {
+            align-self: center;
+            justify-content: flex-start;
+            width: 20rem;
+            max-width: 70%;
+
+            padding-top: rem;
+            .fylo-comp__info__gb-left {
+                top: auto;
+                right: 0;
+                left: 0;
+                margin: auto;
+                bottom: -2rem;
+                width: 11rem;
+                height: 4.5rem;
+    
+                border-bottom-right-radius: 8px;
+            }
+            .fylo-comp__info__gb-left__design__outline {
+                display: none;
+            }
+
+            .fylo-comp__info__txt {
+                align-self: center;
+            }
+        }
+        
+    }
+
+    .progress-bar {
+       
+        .progress-bar__values {
+            .progress-bar__txt {
+                font-size: .8rem;
+    
+            }
+        
+        }
+    }
+}
+
+
